@@ -1,5 +1,5 @@
 ![image](images/microchip.jpg) 
-## Sensorless FOC using PLL Estimator for PMSM : dsPIC33CDVL64MC106 Motor Control Development Board
+## Sensorless FOC using PLL Estimator and Single-Shunt Current Reconstruction Algorithm for PMSM : dsPIC33CDVL64MC106 Motor Control Development Board
 
 
 ## 1. INTRODUCTION
@@ -91,7 +91,7 @@ X2C-Scope is an MPLAB X IDE plugin that allows developers to interact with an ap
 ### 5.1 Firmware Description
 The firmware version needed for the demonstration is mentioned in the section [Motor Control Application Firmware Required for the Demonstration](#21-motor-control-application-firmware-required-for-the-demonstration) section. This firmware is implemented to work on Microchip’s 16-bit Digital signal controller (dsPIC® DSC) **dsPIC33CDVL64MC106**. For more information, see the **dsPIC33CDVL64MC106 Family datasheet [(DS70005441)](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33CDVL64MC106-Family-Data-Sheet-DS70005441.pdf)**.
 
-The Motor Control Demo application uses a push button to start or stop the motor and a potentiometer to vary the speed of the motor. This Motor Control Demo Application configures and uses peripherals like PWM, ADC, UART, etc. For more details, refer to Microchip Application note **AN1292, “Sensorless Field Oriented Control (FOC) for a Permanent Magnet Synchronous Motor (PMSM) Using a PLL Estimator and Field Weakening (FW),”** available on the [Microchip website.]((https://www.microchip.com/).)
+The Motor Control Demo application uses a push button to start or stop the motor and a potentiometer to vary the speed of the motor. This Motor Control Demo Application configures and uses peripherals like PWM, ADC, UART, etc. For more details, refer to Microchip Application note **[AN1292](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ApplicationNotes/ApplicationNotes/01292A.pdf), “Sensorless Field Oriented Control (FOC) for a Permanent Magnet Synchronous Motor (PMSM) Using a PLL Estimator and Field Weakening (FW),”** and  **[AN1299](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ApplicationNotes/ApplicationNotes/01299A.pdf),"Single-Shunt Three-Phase Current Reconstruction Algorithm for Sensorless FOC of a PMSM"** available on the [Microchip website.]((https://www.microchip.com/).)
 
 > **Note:**</br>
 > The project may not build correctly in Windows OS if the Maximum path length of any source file in the project is more than 260 characters. In case the absolute path exceeds or nears the maximum length, do any (or both) of the following:
