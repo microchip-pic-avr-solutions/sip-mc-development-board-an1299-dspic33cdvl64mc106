@@ -1,3 +1,7 @@
+# sip-mc-development-board-an1299-dspic33cdvl64mc106 v1.0.2
+### Release Highlights
+Bug fixes in Bootstrap capacitor charging sequence and change in Gate Driver Dead Time for duty cycle limit calculation
+
 # sip-mc-development-board-an1299-dspic33cdvl64mc106 v1.0.1
 ### Release Highlights
 The short description changed - Added single-shunt current reconstruciton algorithm
